@@ -8,8 +8,14 @@
   </head>
   <body>
     <script>
-      console.log("Текст из index.html");
+      let initial = 1;
+      let bet = 1;
+      for (let i = 1; i < 4; i++) {
+        initial += bet;
+        bet *= 2;
+        initial / 100;
+      }
+      console.log(initial);
     </script>
-    <script src="script.js"></script>
   </body>
 </html>
